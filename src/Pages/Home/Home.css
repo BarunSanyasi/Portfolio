@@ -1,0 +1,206 @@
+body{
+  padding: 180px 0 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 55px 0;
+  }
+  
+  .left-box {
+    position: relative;
+    background: rgb(106,199,223);
+    background: radial-gradient(circle, rgba(106,199,223,1) 0%, rgba(241,249,248,1) 95%);
+    flex: 1;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+  }
+  
+  .profile-container {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .profileName{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .workProfileName{
+    background: rgba(255, 255, 255, 0.25);
+    color: #000000;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px 0 10px;
+    margin: 0 90px 0;
+    border-radius: 1rem;
+  }
+  .profileInfo{
+    padding: 110px 0 50px;
+    margin: 20px;
+  }
+  .socialMedia{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .socialMedia a{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 5px;
+  }
+  .socialMedia a:hover{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .contact-container {
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 1rem;
+  }
+  
+  .contactDetail {
+    display: flex;
+    align-items: start;
+    padding: 10px;
+  }
+  .contactDetail ul{
+    display: flex;
+  }
+  
+  .contactDetail li {
+    padding: 10px;
+  }
+  .contactDetail li a {
+    background: rgba(255, 255, 255, 0.25);
+    color: rgb(128,217,227);
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  .contactDetail li a:hover{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 1rem;
+ }
+  
+  .contact-text {
+    text-align: start;
+    padding: 10px;
+  }
+  
+  .contact-text h5,
+  .contact-text p {
+    color: #000000;
+    margin: 5px 5px 5px;
+
+  }
+  
+  hr {
+    display: block;
+    margin: 0.1em auto 0.1em auto;
+    border-width: 1px;
+    border-style: inset;
+    border: 1px solid #ccc;
+    width: 90%;
+  }
+ 
+  .right-box {
+    background: rgb(106,199,223);
+    background: radial-gradient(circle, rgba(106,199,223,1) 0%, rgba(241,249,248,1) 95%);
+    flex: 2;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .content h1{
+    color: #000000;
+    font-size: 3.5rem;
+    padding: 0.6rem 0 1rem;
+  }
+  .content h3{
+    color: #000000;
+    font-size: 2rem;
+    padding: 0.1rem 0 1rem;
+  }
+  .content p{
+    color: #000000;
+    font-size: 1.3rem;
+    padding: 0.1rem 0 1.5rem;
+  }
+  .cv-download a {
+    display: block;
+    background-color: #278EA5;
+    color: #071E3D;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 50px;
+    text-align: center;
+    border-radius: 1rem;
+  }
+  
+  .cv-download a:hover {
+    background-color: rgb(106,199,223);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .download-icon{
+    padding-right: 5px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      align-items: center; 
+      height: auto;
+      padding: 100px 30px 10px;
+    }
+  
+    .left-box,
+    .right-box {
+      width: auto;
+      margin-bottom: 20px;
+    }
+    .profileInfo{
+      margin: 0 1px;
+
+    }
+    .contactDetail{
+      padding-left: 2px;
+    }
+    .contact-text{
+      padding-left: 1px;
+      font-size: 15px;
+    }
+    .workProfileName{
+      margin: 0 50px 0;
+    }
+    
+    .cv-download a{
+        margin: 0 15px;
+    }
+  }

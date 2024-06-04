@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&family=Ubuntu&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+h1,h4, p,a{
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.logo h1{
+  font-family: "Sacramento", cursive;
+  color: rgb(106,199,223);
+}
+ul{
+  list-style-type: none;
+}
+.btn-box{
+  display: flex;
+  align-items: flex-start;
+  max-width: 21rem;
+  height: 3rem;
+}
+.btn{
+  display: block;
+  background-color: #278EA5;
+  color: #071E3D;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 1rem;
+  white-space: nowrap;
+  border: none;
+}
+.btn:hover{
+  background-color: rgb(106,199,223);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.3s;
+}
+.btn-light{
+  display: block;
+  background: transparent;
+  text-align: center;
+  color:#278EA5;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #278EA5;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+.btn-light:hover{
+  border: none;
+  color: #071E3D;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
