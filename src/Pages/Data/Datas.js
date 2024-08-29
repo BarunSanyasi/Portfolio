@@ -10,8 +10,8 @@ export const socialMediaData = [
 
 export const contactDetails = [
     { icon: faEnvelope, title: 'Email', detail: 'sanyasibarun@gmail.com', link: 'mailto:sanyasibarun@gmail.com' },
-    { icon: faMobile, title: 'Phone', detail: '+91-7008836652', link: 'tel:+917008836652' },
-    { icon: faLocationDot, title: 'Location', detail: 'Bhubaneswar, India', link: 'https://maps.google.com/?q=Bhubaneswar,India' }
+    { icon: faMobile, title: 'Phone', detail: '+975-17503953', link: 'tel:+97517503953' },
+    { icon: faLocationDot, title: 'Location', detail: 'Thimphu, Bhutan', link: 'https://maps.google.com/?q=Thimphu,Bhutan' }
   ];
 
 export const cvDownloadLink = 'https://docs.google.com/document/d/1ifnWl7JbE1LSmjVr0413LezkYQXnIeRbno4lG_JFIKo/edit?usp=sharing'; //resume link
@@ -39,7 +39,11 @@ export const skills= [
             {
                 name:"JavaScript",
                 image:'../Images/js.png'
-            }
+            },
+            {
+                name:"Material UI",
+                image:'../Images/mui.png'
+            },
         ],
     },
     {
@@ -60,6 +64,14 @@ export const skills= [
             {
                 name:"Java",
                 image:'../Images/java.png'
+            },
+            {
+                name:"MongoDB",
+                image:'../Images/mongo-db.png'
+            },
+            {
+                name:"Express Js",
+                image:'../Images/express-js.png'
             }
         ],
     },

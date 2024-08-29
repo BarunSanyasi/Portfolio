@@ -50,7 +50,7 @@ const Home = () => {
           <h1>Hi, I'm Barun Sanyasi.</h1>
           <h3>Software Developer</h3>
           <p>Currently pursuing bachelor's degree in Computer Science and Engineering.
-            I am adequate in the prominent skills like HTML, CSS, JavaScript, React.js, Node.js., WordPress and so on.
+            I am adequate in the prominent skills like HTML, CSS, JavaScript, React.js, Node.js, WordPress and so on.
             I love doing new challenges and projects that help me invest all my skills and experience into succeeding them.</p>
           <div className='btn-box'>
             <a href='Project' className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>

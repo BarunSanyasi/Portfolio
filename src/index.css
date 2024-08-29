@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
 *{
   box-sizing: border-box;
@@ -14,8 +16,16 @@ body{
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
+h1, h3{
+  font-family: "Courgette", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+p{
+  font-family: "Merienda", cursive;
+}
 
-h1,h4, p,a{
+h4, a{
   font-family: "Lato", sans-serif;
   color: white;
 }
