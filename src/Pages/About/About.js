@@ -31,8 +31,8 @@ const About = () => {
           web developer to bring your project to life, feel free to get in touch.
         </p>
         <div className='btn-box'>
-          <a href='/Project' className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
-          <a href='/Contact' className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
+          <a href="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
+          <a href="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
         </div>
       </div>
 

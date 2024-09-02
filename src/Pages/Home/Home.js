@@ -54,8 +54,8 @@ const Home = () => {
             about the opportunity and eager to contribute to the team. I’m determined to learn and grow in this role, and I am confident that I can
             make a positive impact.</p>
           <div className='btn-box'>
-            <a href='/Project' className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
-            <a href='/Contact' className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
+            <a href="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
+            <a href="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
           </div>
         </div>
       </div>
