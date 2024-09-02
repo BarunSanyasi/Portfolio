@@ -13,6 +13,7 @@ import {
 import "./About.css"
 import { educations, skills } from '../Data/Datas';
 import EducationCard from '../Cards/EducationCard';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -31,8 +32,8 @@ const About = () => {
           web developer to bring your project to life, feel free to get in touch.
         </p>
         <div className='btn-box'>
-          <a href="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
-          <a href="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
+          <Link to="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</Link>
+          <Link to="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</Link>
         </div>
       </div>
 

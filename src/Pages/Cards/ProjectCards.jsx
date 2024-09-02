@@ -106,7 +106,7 @@ const Button = styled.a`
     font-weight: 600;
     color: #071E3D;
     padding: 10px;
-    border-radius: 0.8rem;
+    border-radius: 1rem;
     background-color: #278EA5;
     cursor: pointer;
     text-decoration: none;

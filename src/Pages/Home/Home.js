@@ -4,6 +4,7 @@ import { socialMediaData, contactDetails, cvDownloadLink } from '../Data/Datas';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faContactBook, faDownload, faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -54,8 +55,8 @@ const Home = () => {
             about the opportunity and eager to contribute to the team. I’m determined to learn and grow in this role, and I am confident that I can
             make a positive impact.</p>
           <div className='btn-box'>
-            <a href="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
-            <a href="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
+            <Link to="/Project" className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</Link>
+            <Link to="/Contact" className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</Link>
           </div>
         </div>
       </div>
