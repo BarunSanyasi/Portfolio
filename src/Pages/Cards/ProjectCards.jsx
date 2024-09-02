@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 const ProjectCard = styled.div`
- width: auto;
+ width: 35%;
  height: auto;
  background-color: rgba(255, 255, 255, 0.25);
  cursor: pointer;
@@ -20,6 +20,10 @@ const ProjectCard = styled.div`
   transition: translateY(-10px);
   box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
   filter: brightness(1.1);
+ }
+ 
+ @media only screen and (max-width: 768px){
+    width: auto;
  }
 `;
 const Image = styled.img`
@@ -89,20 +93,20 @@ margin: 8px 6px;
 `;
 const ButtonGroup = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     wrap: nowrap;
-    margin: 12px 0px;
+    margin: 10px 0px;
     gap: 12px;
 `;
 
 const Button = styled.a`
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     color: #071E3D;
-    padding: 12px 16px;
-    border-radius: 1rem;
+    padding: 10px;
+    border-radius: 0.8rem;
     background-color: #278EA5;
     cursor: pointer;
     text-decoration: none;
@@ -131,8 +135,16 @@ const ProjectCards = ({ project }) => {
                 <Desc>{project.description}</Desc>
             </Details>
             <ButtonGroup>
-                <Button dull href={project?.github} target='new'>View Code</Button>
-                <Button href={project?.website} target='new'>View Live Web</Button>
+                {project?.github && (
+                    <Button dull href={project.github} target='new'>
+                        View Code
+                    </Button>
+                )}
+                {project?.website && (
+                    <Button href={project.website} target='new'>
+                        View Live Web
+                    </Button>
+                )}
             </ButtonGroup>
         </ProjectCard>
     );

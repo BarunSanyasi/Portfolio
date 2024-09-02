@@ -14,7 +14,7 @@ export const contactDetails = [
     { icon: faLocationDot, title: 'Location', detail: 'Thimphu, Bhutan', link: 'https://maps.google.com/?q=Thimphu,Bhutan' }
   ];
 
-export const cvDownloadLink = 'https://docs.google.com/document/d/1ifnWl7JbE1LSmjVr0413LezkYQXnIeRbno4lG_JFIKo/edit?usp=sharing'; //resume link
+export const cvDownloadLink = 'https://drive.google.com/file/d/1uKwthzcV9b1G5bf-_pyxveW5rKO39gDZ/view?usp=sharing'; //resume link
 
 export const skills= [
     {
@@ -148,15 +148,26 @@ export const projects= [
         github: '',
         website: 'https://bhutantripplanner.com/',
     },
-    // {
-    //     id: 2,
-    //     title: "project5",
-    //     date: "March 2024",
-    //     description: "Im good",
-    //     image: '',
-    //     tags:["React", "HTML"],
-    //     category: "",
-    //     github: '',
-    //     website: '',
-    // },
+    {
+        id: 2,
+        title: "Money Tracker WebApp",
+        date: "June 2024",
+        description: "It helps users manage and track their income and expenses.",
+        image: '../Images/mta.png',
+        tags:["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Body-parser", "MongoDB"],
+        category: "",
+        github: 'https://github.com/BarunSanyasi/Money-Tracker-App-BI',
+        website: '',
+    },
+    {
+        id: 3,
+        title: " Blog WebApp",
+        date: "June 2024",
+        description: "It allows users to write, edit, update, and delete blog posts.",
+        image: '../Images/blogweb.png',
+        tags:["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "EJS", "Method-override", "MongoDB"],
+        category: "",
+        github: 'https://github.com/BarunSanyasi/BlogWebsite-BI',
+        website: '',
+    },
 ];

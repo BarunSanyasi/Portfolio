@@ -23,20 +23,20 @@
 .About-container-box p {
   color: #000000;
   padding: 20px 10px;
-  width: 80%;
-  font-size: 1.3rem;
+  width: 90%;
+  font-size: 1.2rem;
   font-weight: 400;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   display: flex;
 }
 
 .skill-container {
   display: flex;
-  width: 70%;
+  width: 90%;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .skill-container h3{
   margin: 1.3rem;
@@ -45,7 +45,7 @@
 }
 
 .skill-box {
-  width: 45%;
+  width: 40%;
   margin: 1.5rem;
   padding: 10px;
   background: rgba(255, 255, 255, 0.25);
@@ -95,7 +95,8 @@
 
 @media only screen and (max-width: 768px) {
   .About-container-box p{
-    font-size: 1.15rem;
+    width: 100%;
+    font-size: 1rem;
   }
   .skill-box {
     width: 100%;

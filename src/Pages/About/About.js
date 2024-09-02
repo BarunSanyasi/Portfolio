@@ -21,7 +21,7 @@ const About = () => {
         <h1>About</h1>
         <p>I am a passionate and dedicated Web Developer and Software Engineer with extensive experience in
           building websites for businesses of all sizes, from personal portfolios
-          to comprehensive e-commerce platforms. My expertise spans across a wide range of
+          to e-commerce platform. My expertise spans across a wide range of
           technologies including HTML, CSS, JavaScript, React, Node.js, and PHP. I am also proficient
           in WordPress development, creating custom themes and plugins to meet unique client needs.
           As a fast learner and dedicated worker, I continuously strive to stay updated with the latest
@@ -31,8 +31,8 @@ const About = () => {
           web developer to bring your project to life, feel free to get in touch.
         </p>
         <div className='btn-box'>
-          <a href='Project' className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
-          <a href='Contact' className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
+          <a href='/Project' className='btn'><FontAwesomeIcon icon={faListCheck} className="icons" />Project</a>
+          <a href='/Contact' className='btn-light'><FontAwesomeIcon icon={faContactBook} className="icons" />Hire Me</a>
         </div>
       </div>
 
